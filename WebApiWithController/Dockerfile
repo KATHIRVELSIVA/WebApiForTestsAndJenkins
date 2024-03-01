@@ -9,15 +9,15 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["WebApiWithController.csproj", "WebApiWithController/"]
-RUN dotnet restore "./WebApiWithController/./WebApiWithController.csproj"
+COPY ["WebApiWithController.csproj", "."]
+RUN dotnet restore "./././WebApiWithController.csproj"
 COPY . .
-WORKDIR "/src/WebApiWithController"
-RUN dotnet build "WebApiWithController.csproj" -c $BUILD_CONFIGURATION -o /app/build
+WORKDIR "/src/."
+RUN dotnet build "./WebApiWithController.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "../WebApiWithController/WebApiWithController.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "./WebApiWithController.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
