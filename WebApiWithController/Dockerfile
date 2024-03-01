@@ -13,7 +13,7 @@ COPY ["WebApiWithController.csproj", "WebApiWithController/"]
 RUN dotnet restore "./WebApiWithController/./WebApiWithController.csproj"
 COPY . .
 WORKDIR "/src/WebApiWithController"
-RUN dotnet build "WebApiWithController.csproj" -c $BUILD_CONFIGURATION -o /app/build
+RUN dotnet build "./WebApiWithController.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
