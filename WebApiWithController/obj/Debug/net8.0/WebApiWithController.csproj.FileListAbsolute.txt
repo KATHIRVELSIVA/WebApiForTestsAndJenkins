@@ -30,3 +30,4 @@ D:\SKV\Codes\CsharpDotnet\Practice\01032024\WebApiWithController\WebApiWithContr
 D:\SKV\Codes\CsharpDotnet\Practice\01032024\WebApiWithController\WebApiWithController\WebApiWithController\obj\Debug\net8.0\WebApiWithController.pdb
 D:\SKV\Codes\CsharpDotnet\Practice\01032024\WebApiWithController\WebApiWithController\WebApiWithController\obj\Debug\net8.0\WebApiWithController.genruntimeconfig.cache
 D:\SKV\Codes\CsharpDotnet\Practice\01032024\WebApiWithController\WebApiWithController\WebApiWithController\obj\Debug\net8.0\ref\WebApiWithController.dll
+D:\SKV\Codes\CsharpDotnet\Practice\01032024\WebApiWithController\WebApiWithController\WebApiWithController\obj\Debug\net8.0\WebApiWithController.sourcelink.json
