@@ -1516,11 +1516,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\SKV\\Codes\\CsharpDotnet\\Practice\\01032024\\WebApiWithController\\WebApiWithController\\WebApiTeacherProject.test\\WebApiTeacherProject.test.csproj",
+      "projectUniqueName": "D:\\SKV\\Codes\\CsharpDotnet\\Practice\\01032024\\WebApiWithController\\WebApiWithController\\WebApiTeacherProject.test\\WebApiTeacherProject.test.csproj",
       "projectName": "WebApiTeacherProject.test",
-      "projectPath": "d:\\SKV\\Codes\\CsharpDotnet\\Practice\\01032024\\WebApiWithController\\WebApiWithController\\WebApiTeacherProject.test\\WebApiTeacherProject.test.csproj",
+      "projectPath": "D:\\SKV\\Codes\\CsharpDotnet\\Practice\\01032024\\WebApiWithController\\WebApiWithController\\WebApiTeacherProject.test\\WebApiTeacherProject.test.csproj",
       "packagesPath": "C:\\Users\\kathirvel.selvam\\.nuget\\packages\\",
-      "outputPath": "d:\\SKV\\Codes\\CsharpDotnet\\Practice\\01032024\\WebApiWithController\\WebApiWithController\\WebApiTeacherProject.test\\obj\\",
+      "outputPath": "D:\\SKV\\Codes\\CsharpDotnet\\Practice\\01032024\\WebApiWithController\\WebApiWithController\\WebApiTeacherProject.test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1541,8 +1541,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "d:\\SKV\\Codes\\CsharpDotnet\\Practice\\01032024\\WebApiWithController\\WebApiWithController\\WebApiWithController\\WebApiWithController.csproj": {
-              "projectPath": "d:\\SKV\\Codes\\CsharpDotnet\\Practice\\01032024\\WebApiWithController\\WebApiWithController\\WebApiWithController\\WebApiWithController.csproj"
+            "D:\\SKV\\Codes\\CsharpDotnet\\Practice\\01032024\\WebApiWithController\\WebApiWithController\\WebApiWithController\\WebApiWithController.csproj": {
+              "projectPath": "D:\\SKV\\Codes\\CsharpDotnet\\Practice\\01032024\\WebApiWithController\\WebApiWithController\\WebApiWithController\\WebApiWithController.csproj"
             }
           }
         }
