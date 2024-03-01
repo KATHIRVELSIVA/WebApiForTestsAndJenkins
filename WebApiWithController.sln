@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiWithController", "WebApiWithController\WebApiWithController.csproj", "{37A2FECA-0759-48A9-A87B-6AD6F6256A54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiWithController", "WebApiWithController\WebApiWithController.csproj", "{37A2FECA-0759-48A9-A87B-6AD6F6256A54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiTeacherProject.test", "WebApiTeacherProject.test\WebApiTeacherProject.test.csproj", "{441AAC84-969E-40EC-B275-69B4B29F4798}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiTeacherProject.test", "WebApiTeacherProject.test\WebApiTeacherProject.test.csproj", "{441AAC84-969E-40EC-B275-69B4B29F4798}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
